@@ -4,8 +4,8 @@ import os
 
 district= "Jhapa" 
 
-input_csv = f"../data/clean_data/{district}_monthly.csv"
-output_csv = f"../data/final_data/{district}.csv"
+input_csv = f"data/clean_data/{district}_monthly.csv"
+output_csv = f"data/final_data/{district}.csv"
 missing_fraction = 0.08  # 8% missing randomly
 columns_to_corrupt = ['Temp_2m', 'Precip']
 
