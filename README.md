@@ -20,6 +20,21 @@ Tempora is an intelligent climate prediction and agricultural recommendation sys
   - **Data Preprocessing:** Automated cleaning and preparation of climate data  
   - **Interactive Visualizations:** Dynamic charts and maps for data exploration  
 
+## 📐 Core Techniques Used
+
+- Time-based indexing of monthly climate data
+- Forecast modeling using mathematical curve fitting
+- Season-aware adjustment using month-wise averages
+- Data grouping, aggregation, and custom interpolation
+- Manual implementation of numerical algorithms (no external libraries like NumPy for modeling)
+
+## 📝 Usage Instructions
+
+- Open `ClimateAnalysis.ipynb` in Jupyter
+- Select a district (e.g., Chitawan)
+- Run cells to clean data, interpolate, and forecast climate
+- View forecasted trends and get crop recommendation
+
   ## Prerequisites 
   - **Python 3.8 or higher**
   - **Jupyter notebook**
