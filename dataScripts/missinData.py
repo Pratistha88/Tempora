@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 
-district= "Jhapa" 
+district= "Chitawan" 
 
 input_csv = f"../data/clean_data/{district}_monthly.csv"
 output_csv = f"../data/final_data/{district}.csv"
